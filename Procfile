@@ -1,1 +1,1 @@
-web: gunicorn HouseHarvest.wsgi
+web: gunicorn HouseHarvest.wsgi --log-file--
