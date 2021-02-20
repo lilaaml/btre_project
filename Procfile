@@ -1,1 +1,3 @@
-web: gunicorn HouseHarvest.wsgi --log-file--
+web: gunicorn HouseHarvest.wsgi:application --log-file - --log-level debug
+python manage.py collectstatic --noinput
+manage.py migrate
