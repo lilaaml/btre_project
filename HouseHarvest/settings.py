@@ -35,9 +35,6 @@ ALLOWED_HOSTS = ['project-btre.herokuapp.com']
 # Application definition
 
 INSTALLED_APPS = [
-    'whitenoise.runserver_nostatic',
-    'django.contrib.staticfiles',
-    'landing',
     'pages.apps.PagesConfig',
     'listings.apps.ListingsConfig',
     'realtors.apps.RealtorsConfig',
